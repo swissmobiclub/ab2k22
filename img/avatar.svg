@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <defs>
+        <linearGradient x1="35.6056939%" y1="54.9899071%" x2="76.4264886%" y2="95.5629359%" id="linearGradient-1">
+            <stop stop-color="#FE5047" offset="0%"></stop>
+            <stop stop-color="#FC3461" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#A4E2EF" x="0" y="0" width="320" height="320"></rect>
+        <path d="M33,321.286735 C67.3263674,278.429592 112.518018,255 160,255 C207.481982,255 252.674654,278.429592 287,321.286735 C253.81982,352.141837 209.198198,371 160,371 C110.801802,371 66.1801802,352.142857 33,321.286735 Z M160.5,204 C205.267606,204 242,167.267606 242,122.5 C242,77.7323944 205.267606,41 160.5,41 C115.732394,41 79,77.7323944 79,122.5 C79,167.267606 115.732394,204 160.5,204 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+    </g>
+</svg>

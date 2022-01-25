@@ -1,0 +1,49 @@
+body {
+	font-family: 'Helvetica', Arial !important;
+	scroll-behavior: smooth;
+}
+
+.navbar {
+	transition: all ease-in-out 0.2s;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 3rem;
+}
+
+.navbar-brand img {
+	height: 44px;
+}
+
+#hero img {
+	height: 40vh;
+}
+
+.bg-monteverita {
+	background-color: #000;
+	background-image: url('../img/monte-verita.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+.timeline .time {
+	font-size: 20px;
+}
+
+.timeline .title {
+	font-weight: bold;
+}
+
+.timeline .room {
+	font-style: italic;
+}
+
+.navbar a.nav-link {
+	font-size: 20px !important;
+	text-align: center;
+}
+
+.fixed-top {
+	z-index: 999;
+}
