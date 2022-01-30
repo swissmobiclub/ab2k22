@@ -55,6 +55,9 @@
 						<a class="nav-link" href="#schedule">Schedule</a>
 					</li>
 					<li class="nav-item px-3">
+						<a class="nav-link" href="#venue">Venue</a>
+					</li>
+					<li class="nav-item px-3">
 						<a class="nav-link" href="#tickets">Tickets</a>
 					</li>
 					<li class="nav-item px-3">
@@ -79,9 +82,10 @@
 
 	<section id="concept" class="text-dark">
 		<div class="container py-5">
-			<h2 class="text-center mb-5 py-5 h1 font-weight-bolder h2">
-				Why a Labs Edition?
-			</h2>
+			<div class="col-12 py-5">
+				<h2 class="h2 text-center text-dark">Why a Labs Edition?</h2>
+				<hr class="w-25 mx-auto">
+			</div>
 			<div class="row">
 				<div class="col-lg-6 col-12 mb-5 row">
 					<div class="col-2 text-center">
@@ -150,12 +154,13 @@
 		</div>
 	</section>
 
-	<!-- Team -->
-	<div class="py-5 bg-gradient-light" id="mentors">
+	<!-- Mentors -->
+	<section class="py-4 bg-gradient-light" id="mentors">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-12">
-					<h2 class="my-5 text-center">Mentors</h2>
+				<div class="col-12 py-5">
+					<h2 class="h2 text-center text-dark">Mentors</h2>
+					<hr class="w-25 mx-auto">
 				</div>
 				<div class="col-lg-4 col-md-6 mt-md-0 mb-5" v-for="speaker in speakers">
 					<div class="card card-profile">
@@ -189,14 +194,15 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<!-- Event Schedule -->
-	<section id="schedule" class="py-5 bg-gradient-dark">
+	<section id="schedule" class="py-4 bg-gradient-dark">
 		<div class="container-lg container-fluid">
 			<div class="row">
-				<div class="col-md-12 text-center">
-					<h2 class="py-5 text-white">Event Schedule</h2>
+				<div class="col-12 py-5">
+					<h2 class="h2 text-center text-white">Event Schedule</h2>
+					<hr class="w-25 mx-auto">
 				</div>
 			</div>
 			<div class="row">
@@ -238,33 +244,66 @@
 				</div>
 			</div>
 	</section>
+	<!-- Venue -->
+	<section id="venue" class="pt-4 bg-gradient-light">
+		<div class="container-fluid">
+			<div class="row gx-5 text-center justify-content-center">
+				<div class="col-12 pt-5">
+					<h2 class="h2 text-center text-dark">Venue</h2>
+					<hr class="w-25 mx-auto">
+				</div>
+				<div class="col-12">
+					<p class="py-3 lead text-dark text-center">
+						Monte Verità<br>
+						<small>Strada Collina 84, CH-6612 Ascona</small>
+					</p>
+				</div>
+				<div class="col-md-12 pb-4">
+					<a class="btn btn-light mx-1" href="https://maps.apple.com/?address=Strada%20Collina%2078,%206612%20Ascona,%20Suisse&auid=12873773752252138211&ll=46.158025,8.764224&lsp=9902&q=Monte%20Verita&_ext=CisKBQgEENMBCgQIBRADCgQIBhALCgQIChAACgQIUhADCgQIVRAOCgQIWRABEiYpfU6L/KYTR0Axprx5dPaDIUA5+yOxWM0UR0BB8oW3TpqKIUBQBA%3D%3D" target="_blank">Apple Maps</a>
+					<a class="btn btn-light mx-1" href="https://goo.gl/maps/ERGvjCk24wTEfVTd7" target="_blank">Google Maps</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col py-6 venue-img" style="background-image: url('img/venue/1.jpg');"></div>
+				<div class="col py-6 venue-img" style="background-image: url('img/venue/2.jpg');"></div>
+				<div class="col py-6 venue-img" style="background-image: url('img/venue/3.jpg');"></div>
+				<div class="col py-6 venue-img" style="background-image: url('img/venue/4.jpg');"></div>
+			</div>
+	</section>
 	<!-- Transport & Hotel -->
-	<section id="reach" class="py-5 bg-gradient-light">
+	<section id="reach" class="py-5 bg-gradient-dark">
 		<div class="container">
 			<div class="row gx-5 text-left justify-content-center">
-				<div class="col-md-12">
-					<div class="mi-short-heading mi-pt-0">
-						<h2 class="py-5 text-center">How to reach Locarno</h2>
-					</div>
+				<div class="col-12 py-5">
+					<h2 class="h2 text-center text-white">How to reach Locarno?</h2>
+					<hr class="w-25 mx-auto">
 				</div>
-<div class="col-lg-4 col-md-6 col-12 mb-4">
-					<div class="card shadow-lg">
-						<div class="card-body">
-							<p class="h4"> <span class="h2"> ✈️ </span> by plane</p>
-						</div>
-					</div>
-				</div>
-<div class="col-lg-4 col-md-6 col-12 mb-4">
+				<div class="col-md-6 col-12 mb-4">
 					<div class="card shadow-lg">
 						<div class="card-body">
 							<p class="h4"> <span class="h2"> 🚂 </span> by train</p>
+							<p>From northern Europe and the northern and western parts of Switzerland the Lago Maggiore region can be reached by using the international railway lines Basel-Milano or Zurich-Milano, with the direct trains Intercity and EuroCity. If there are no direct connections available, it is necessary to change trains at Bellinzona for direction Locarno.</p>
+							<p>From Domodossola, following the international Simplon-line, the narrow gauge train "Centovalli" offers a particularly romantic journey. With the railway line from Milano-Centrale via Como there are connections to the Ticino from every part of Mediterranean Europe with the Intercity trains as well as the fast train EuroCity.</p>
+							<p>For train fares and timetables, we recommend you to check <a href="#" target="_blank">the Swiss Federal Railways's website</a> or use their mobile app (<a href="https://apps.apple.com/ch/app/mobile-cff/id294855237" target="_blank">iOS</a> & <a href="https://play.google.com/store/apps/details?id=ch.sbb.mobile.android.b2c" target="_blank">Android</a>).
+							<p>
+								<strong>Did you know?</strong>
+								The Swiss Federal Railways also developed have an accessible app available for both <a href="https://apps.apple.com/ch/app/sbb-inclusive/id1495023290" target="_blank">iOS</a> & <a href="https://play.google.com/store/apps/details?id=ch.sbb.inclusive" target="_blank">Android</a>.
+							</p>
 						</div>
 					</div>
 				</div>
-<div class="col-lg-4 col-md-6 col-12 mb-4">
+				<div class="col-md-6 col-12 mb-4">
 					<div class="card shadow-lg">
 						<div class="card-body">
 							<p class="h4"> <span class="h2"> 🚗 </span> by car</p>
+							<p>The Lago Maggiore region can easily be reached by car:</p>
+							<p>
+								<li>From the south, on the motorway trough the northern Italian lake district, from Milan to the Swiss border at Chiasso-Brogeda and further following the motorway A2 direction north, following the signposting "Gottardo" and passing the towns Mendrisio, Lugano, Bellinzona (cross road to Locarno and lake Maggiore) up to Airolo. Arriving from the north, follow the motorway A2 to Bellinzona (exit Bellinzona south, following the signposting for Locarno and Lago Maggiore).
+								</li>
+							</p>
+							<p>
+								<li>From the north also passing the Sempione pass road, following the E62 to Domodossola, and then following the indications for Locarno and the SS337 (Valle Vigezzo). The Ticino roads are very safe and up to date.</li>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -272,13 +311,12 @@
 		</div>
 	</section>
 	<!-- Tickets -->
-	<section id="tickets" class="pt-5 bg-gradient-dark">
+	<section id="tickets" class="pt-4 bg-gradient-light">
 		<div class="container">
 			<div class="row text-center justify-content-center">
-				<div class="col-md-12">
-					<div class="mi-short-heading mi-pt-0">
-						<h2 class="py-5 text-white">Buy Your Ticket</h2>
-					</div>
+				<div class="col-12 py-5">
+					<h2 class="h2 text-center">Get your ticket</h2>
+					<hr class="w-25 mx-auto">
 				</div>
 				<div class="col-lg-6 col-12">
 					<div class="card shadow-lg">
@@ -286,16 +324,59 @@
 					</div>
 				</div>
 				<div class="col-md-12 py-5">
-					<div class="text-light">
-						<span>If you would like to be considered for a scholarship or diversity ticket please <a href="mailto:info@swissmobiclub.org?subject=App%20Builders%202020%3A%20Scholarship" class="text-decoration-underline text-white">contact us</a>.</span>
+					<div class="text-dark">
+						<span>If you would like to be considered for a scholarship or diversity ticket please <a href="mailto:info@swissmobiclub.org?subject=App%20Builders%202020%3A%20Scholarship" class="text-decoration-underline text-black">contact us</a>.</span>
 					</div>
-					<div class="text-light">
-						<span>If you would like to pay by invoice please <a href="mailto:info@swissmobiclub.org?subject=App%20Builders%202020%3A%20Ticket%20Invoice%20Request&body=Please%20issue%20an%20invoice%20to%20%3CYour%20Company%20Name%20and%20Address%3E%20for%20%3CNumber%20of%20tickets%3E%20tickets%20for%20App%20Builders%202020." class="text-decoration-underline text-white">contact us</a> with the number of tickets you'd like and your details.</span>
+					<div class="text-dark">
+						<span>If you would like to pay by invoice please <a href="mailto:info@swissmobiclub.org?subject=App%20Builders%202020%3A%20Ticket%20Invoice%20Request&body=Please%20issue%20an%20invoice%20to%20%3CYour%20Company%20Name%20and%20Address%3E%20for%20%3CNumber%20of%20tickets%3E%20tickets%20for%20App%20Builders%202020." class="text-decoration-underline text-black">contact us</a> with the number of tickets you'd like and your details.</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!-- Organizers -->
+	<footer class="py-4 bg-gradient-dark" id="about">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 py-5">
+					<h2 class="h2 text-center text-white">About us</h2>
+					<hr class="w-25 mx-auto">
+				</div>
+				<div class="col-lg-4 col-md-6 mt-md-0 mb-5" v-for="organizer in organizers">
+					<div class="card card-profile">
+						<div class="card-body pb-0">
+							<div class="text-start mt-0 z-index-1">
+								<div class="position-relative w-25">
+									<div class="blur-shadow-avatar">
+										<img class="avatar avatar-xxl shadow-lg" v-bind:src="organizer.picture">
+									</div>
+								</div>
+							</div>
+							<div class="card-body ps-0">
+								<h5 class="mb-0">{{ organizer.firstName }} {{ organizer.lastName }}</h5>
+								<p class="text-muted">{{ organizer.jobTitle }} <span v-if="organizer.company != ''"> @ {{ organizer.company }}</p>
+								<a v-show="organizer.twitter != null" v-bind:href="'https://twitter.com/' + organizer.twitter" class="btn-icon-only btn-simple btn btn-lg btn-twitter" data-toggle="tooltip" data-placement="bottom" title="Follow me!" target="_blank">
+									<span class="btn-inner--icon">
+										<i class="fab fa-twitter"></i>
+									</span>
+								</a>
+								<a v-show="organizer.github != null" v-bind:href="'https://github.com/' + organizer.github" class="btn-icon-only btn-simple btn btn-lg btn-github" data-toggle="tooltip" data-placement="bottom" title="Follow me!" target="_blank">
+									<span class="btn-inner--icon">
+										<i class="fab fa-github"></i>
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<hr class="w-50 mx-auto">
+					<p class="lead text-white text-center">© 2002 Swiss Mobile Club</p>
+
+				</div>
+			</div>
+		</div>
+	</footer>
 	<script src="js/jquery/jquery.min.js"></script>
 	<script>
 		$(document).ready(function() {
@@ -315,6 +396,7 @@
 	<script src="js/bootstrap/bootstrap.min.js"></script>
 	<script src="js/speakers.js"></script>
 	<script src="js/schedule.js"></script>
+	<script src="js/organizers.js"></script>
 </body>
 
 </html>
