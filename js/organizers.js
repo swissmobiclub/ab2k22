@@ -12,9 +12,9 @@ new Vue({
 			{
 				firstName: 'Seán',
 				lastName: 'Labastille',
-				jobTitle: '',
-				company: 'Fairtiq',
-				picture: 'img/avatar.svg',
+				jobTitle: 'iOS Engineer',
+				company: 'FAIRTIQ',
+				picture: 'img/sean.jpg',
 				twitter: 'flufffel',
 			},
 			{
@@ -22,7 +22,7 @@ new Vue({
 				lastName: 'Scuderi',
 				jobTitle: 'iOS Engineer',
 				company: 'Migros Online',
-				picture: 'img/avatar.svg',
+				picture: 'img/luca.jpg',
 				twitter: 'lucascuderi',
 				github: 'lscuderi',
 			},
