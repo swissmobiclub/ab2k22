@@ -11,7 +11,7 @@ new Vue({
 			{
 				time: '09:30',
 				emoji: '🎤',
-				title: 'Workshops Presentations',
+				title: 'Workshop Pitches',
 				room: 'Auditorium',
 			},
 			{
@@ -43,6 +43,12 @@ new Vue({
 				emoji: '💻',
 				title: 'Session 3',
 				room: 'Auditorium',
+			},
+			{
+				time: '18:00',
+				emoji: '🍕',
+				title: 'Dinner Break',
+				room: '— Find somewhere nearby —',
 			},
 			{
 				time: '20:30',
@@ -95,7 +101,7 @@ new Vue({
 				room: 'Auditorium',
 			},
 			{
-				time: '20:30',
+				time: '18:00',
 				emoji: '👋',
 				title: 'Closing',
 				room: 'Auditorium',
