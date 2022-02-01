@@ -5,9 +5,11 @@ new Vue({
 			{
 				firstName: 'Samuel',
 				lastName: 'Bichsel',
-				jobTitle: '',
+				jobTitle: 'Head of Product Engineering',
 				company: 'dreipol',
-				picture: 'img/avatar.svg',
+				picture: 'img/samuel.jpg',
+				twitter: 'the_melbic',
+				github: 'melbic'
 			},
 			{
 				firstName: 'Seán',
