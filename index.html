@@ -49,12 +49,6 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item px-3">
-						<a class="nav-link" href="#mentors">Mentors</a>
-					</li>
-					<li class="nav-item px-3">
-						<a class="nav-link" href="#schedule">Schedule</a>
-					</li>
-					<li class="nav-item px-3">
 						<a class="nav-link" href="#venue">Venue</a>
 					</li>
 					<li class="nav-item px-3">
@@ -162,96 +156,6 @@
 		</div>
 	</section>
 
-	<!-- Mentors -->
-	<section class="py-4 bg-gradient-light" id="mentors">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-12 py-5">
-					<h2 class="h2 text-center text-dark">Mentors</h2>
-					<hr class="w-25 mx-auto">
-				</div>
-				<div class="col-lg-4 col-md-6 mt-md-0 mb-5" v-for="speaker in speakers">
-					<div class="card card-profile">
-						<div class="card-body pb-0">
-							<div class="text-start mt-0 z-index-1">
-								<div class="position-relative w-25">
-									<div class="blur-shadow-avatar">
-										<img class="avatar avatar-xxl shadow-lg" v-bind:src="speaker.picture">
-									</div>
-								</div>
-							</div>
-							<div class="card-body ps-0">
-								<h5 class="mb-0">{{ speaker.firstName }} {{ speaker.lastName }}</h5>
-								<p class="text-muted">{{ speaker.jobTitle }} <span v-if="speaker.company != ''"> @ {{ speaker.company }}</p>
-								<p>
-									{{ speaker.bio }}
-								</p>
-								<a v-show="speaker.twitter != null" v-bind:href="'https://twitter.com/' + speaker.twitter" class="btn-icon-only btn-simple btn btn-lg btn-twitter" data-toggle="tooltip" data-placement="bottom" title="Follow me!" target="_blank">
-									<span class="btn-inner--icon">
-										<i class="fab fa-twitter"></i>
-									</span>
-								</a>
-								<a v-show="speaker.github != null" v-bind:href="'https://github.com/' + speaker.github" class="btn-icon-only btn-simple btn btn-lg btn-github" data-toggle="tooltip" data-placement="bottom" title="Follow me!" target="_blank">
-									<span class="btn-inner--icon">
-										<i class="fab fa-github"></i>
-									</span>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Event Schedule -->
-	<section id="schedule" class="py-4 bg-gradient-dark">
-		<div class="container-lg container-fluid">
-			<div class="row">
-				<div class="col-12 py-5">
-					<h2 class="h2 text-center text-white">Event Schedule</h2>
-					<hr class="w-25 mx-auto">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="card mb-5 shadow-lg">
-						<div class="card-body">
-							<h3>Monday May 16<sup>th</sup></h3>
-							<hr>
-							<div class="timeline timeline-one-side">
-								<div class="timeline-block mb-3" v-for="event in day1">
-									<span class="timeline-step">
-										{{ event.emoji }}
-									</span>
-									<div class="timeline-content">
-										<h6 class="text-dark font-weight-bold mb-0">{{ event.time }} {{ event.title }}</h6>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="card shadow-lg">
-						<div class="card-body">
-							<h3>Tuesday May 17<sup>th</sup></h3>
-							<hr>
-							<div class="timeline timeline-one-side">
-								<div class="timeline-block mb-3" v-for="event in day2">
-									<span class="timeline-step lead">
-										{{ event.emoji }}
-									</span>
-									<div class="timeline-content">
-										<h6 class="text-dark font-weight-bold mb-0">{{ event.time }} {{ event.title }}</h6>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-	</section>
 	<!-- Venue -->
 	<section id="venue" class="pt-4 bg-gradient-light">
 		<div class="container-fluid">
