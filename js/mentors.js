@@ -24,7 +24,6 @@ new Vue({
 				bio: 'I\'m a passionate Android developer, a writer, a speaker, a trainer, and I\'m always looking for new opportunities to learn and share back my findings with the community. I\'m also 1/2 of <a target="_blank" href="http://codewiththeitalians.it">codewiththeitalians.it</a> 😁',
 			},
 			{
-			{
 				firstName: 'Vikram',
 				lastName: 'Kriplaney',
 				jobTitle: '',
