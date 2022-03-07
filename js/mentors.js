@@ -24,7 +24,6 @@ new Vue({
 				bio: 'I\'m a passionate Android developer, a writer, a speaker, a trainer, and I\'m always looking for new opportunities to learn and share back my findings with the community. I\'m also 1/2 of <a target="_blank" href="http://codewiththeitalians.it">codewiththeitalians.it</a> 😁',
 			},
 			{
-			{
 				firstName: 'Vikram',
 				lastName: 'Kriplaney',
 				jobTitle: '',
@@ -41,6 +40,24 @@ new Vue({
 				picture: 'img/people/Tim.jpg',
 				twitter: '0xTim',
 				bio: "Tim is a Swift developer from Manchester, UK and part of the Vapor Core Team. He's the server-side Swift team lead at raywenderlich.com and has written the unofficial-official book on Vapor with the founders of the framework. He founded Broken Hands a few years ago and delivers talks and workshops on Vapor and server-side Swift around the world. He also co-organises the ServerSide.swift conference - the world’s first and only conference focused on server-side Swift.",
+			},
+			{
+				firstName: 'Darryl',
+				lastName: 'Bayliss',
+				jobTitle: '',
+				company: '',
+				picture: 'img/people/Darryl.jpeg',
+				twitter: 'darryl_bayliss',
+				bio: "A Liverpudlian in London with nine years of mobile dev experience. Darryl writes, speaks and teaches all things mobile.\nHis travels have seen him work with Swiss smart mobility startup Axon Vibe, mobile tutorial website raywenderlich.com, and creative card marketplace Thortful.\nDarryl currently develops The Body Coach app -- working in the team behind the UK's favourite fitness coach, Joe Wicks -- helping people get fitter, healthier and happier.",
+			},
+			{
+				firstName: 'Emad',
+				lastName: 'Ghorbaninia',
+				jobTitle: '',
+				company: '',
+				picture: 'img/people/Emad.jpg',
+				twitter: 'emadgnia',
+				bio: "Emad is a Lead iOS engineer at the Ministry of Taxation in Denmark and Article Author, Tech Editor, Video Instructor at Raywenderlich. When he’s not in front of a computer he is usually playing board games 🎲 and video games🎮 or watching series 📺. (you won't believe it) sometimes he plays harmonica 🎼.",
 			},
 		],
 	},
