@@ -1,5 +1,5 @@
 new Vue({
-	el: '#schedule',
+	el: '#schedule-table',
 	data: {
 		day1: [
 			{
