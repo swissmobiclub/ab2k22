@@ -16,7 +16,7 @@ new Vue({
         firstName: "Ivan",
         lastName: "Morgillo",
         jobTitle: "Android Consultant and Trainer",
-        company: "JetBrains",
+        company: "",
         picture: "img/people/ivan.jpg",
         twitter: "hamen",
         github: "hamen",
