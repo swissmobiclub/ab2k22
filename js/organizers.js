@@ -27,6 +27,7 @@ new Vue({
 				picture: 'img/luca.jpg',
 				twitter: 'lucascuderi',
 				github: 'lscuderi',
+				linkedin: 'lucascuderi',
 			},
 		],
 	},
