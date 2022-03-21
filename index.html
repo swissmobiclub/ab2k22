@@ -143,41 +143,40 @@
 			</div>
 		</div>
 	</section>
-	
 	<!-- Schedule -->
 	<section id="schedule" class="bg-gradient-dark">
 		<div class="container-fluid">
 			<div class="row gx-5 justify-content-center">
 				<div class="col-12 py-5">
-					<h2 class="h2 text-light text-center">Schedule</h2>
-					<hr class="w-25 mx-auto"> 
+					<h2 class="h2 text-white text-center">Schedule</h2>
+					<hr class="w-25 mx-auto">
 				</div>
 			</div>
 			<div class="row justify-content-center" id="schedule-table">
-				<div class="col-4 py-5 text-center">
-					<table class="table table-borderless table-striped table-dark justify-content-center text-start">
+				<div class="col-md-4 col-12 pt-3 pb-5 text-center">
+					<table class="table table-borderless text-white justify-content-center text-start">
 						<thead>
 							<tr>
-								<th scope="col" class="h2 text-light">Monday May 16<sup>th</sup></th>
+								<th scope="col" class="h2 text-white">Monday May 16<sup>th</sup></th>
 							</tr>
 						</thead>
-						<tbody >
+						<tbody>
 							<tr v-for="session in day1">
-								<td>{{ session.time }}: {{ session.emoji }} {{ session.title }}</td>
+								<td class="lead">{{ session.time }}: {{ session.emoji }} {{ session.title }}</td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
-				<div class="col-4 py-5 text-center">
-					<table class="table table-borderless table-striped table-dark justify-content-center text-start">
+				<div class="col-md-4 col-12 pt-3 pb-5 text-center">
+					<table class="table table-borderless text-white justify-content-center text-start">
 						<thead>
 							<tr>
 								<th scope="col" class="h2 text-light">Tuesday May 17<sup>th</sup></th>
 							</tr>
 						</thead>
-						<tbody >
+						<tbody>
 							<tr v-for="session in day2">
-								<td>{{ session.time }}: {{ session.emoji }} {{ session.title }}</td>
+								<td class="lead">{{ session.time }}: {{ session.emoji }} {{ session.title }}</td>
 							</tr>
 						</tbody>
 					</table>
