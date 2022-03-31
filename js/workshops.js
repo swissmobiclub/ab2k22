@@ -159,6 +159,39 @@ new Vue({
           },
         ],
       },
+      {
+        title: "Building an iOS App with Bazel",
+        image: "img/workshops/kotlin.svg",
+        platform: "ios",
+        mentors: [
+          {
+            firstName: "Samuel",
+            lastName: "Giddins",
+            picture: "img/people/samuel.jpeg",
+            twitter: "segiddins",
+            jobTitle: "Tech Lead",
+            company: "Cash App",
+            bio: 'Samuel is a developer well-versed in the rituals of writing developer tools that occasionally work. By day, Samuel is the tech lead on Cash Appʼs consumer lending underwriting team; by night he can be found breaking Bundler and CocoaPods. Before this whole "developer" thing, Samuel studied in the highly impractical Mathematics & Economics departments at UChicago, learning subjects such as "numbers", "social theory", and "memes". When not coding, Samuel is often in the kitchen, marveling at the fact that dinner smells better than it looks.',
+          },
+        ],
+      },
+      {
+        title:
+          "Introduction into Rust as a language for cross platform shared libraries",
+        image: "img/workshops/rust.svg",
+        platform: "ios",
+        mentors: [
+          {
+            firstName: "Benedikt",
+            lastName: "Terhechte",
+            picture: "img/people/benedikt.jpeg",
+            twitter: "terhechte",
+            jobTitle: "Swift / Rust Developer",
+            company: "🐻",
+            bio: "Benedikt works as a Swift / Rust developer for a stealth startup in Berlin. In his free time he works on HyperDeck, a native Markdown Presentation app. Prior to his current job, he worked as a team lead / developer for the German social network XING, and before that he worked as a Indie developer on PhotoDesk, a Instagram client for macOS.",
+          },
+        ],
+      },
     ],
   },
 });
