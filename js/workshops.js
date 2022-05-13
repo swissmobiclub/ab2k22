@@ -193,22 +193,6 @@ new Vue({
         ],
       },
       {
-        title: "Flutter Animations - All you need to know",
-        image: "img/workshops/flutter.svg",
-        platform: "both",
-        mentors: [
-          {
-            firstName: "Roaa",
-            lastName: "Khaddam",
-            picture: "img/people/Roaa.png",
-            twitter: "roaakdm",
-            jobTitle: "Senior Flutter Mobile Developer & Co-Founder",
-            company: "MultiCaret",
-            bio: "Senior Flutter Mobile Developer & Co-Founder at MultiCaret. Building production-level Flutter mobile applications in multiple industries including Food & grocery delivery, medical & health care, tourism, e-commerce, social media, and telecommunication. Started with Flutter about 3 years ago and am enjoying every minute of it!",
-          },
-        ],
-      },
-      {
         title: "Build an exercise companion",
         image: "img/workshops/both.svg",
         platform: "android",
