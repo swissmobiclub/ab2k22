@@ -27,28 +27,27 @@ new Vue({
 				room: 'Auditorium',
 			},
 			{
-				time: '13:00',
+				time: '13:30',
 				emoji: '💻',
 				title: 'Session 2',
 				room: 'Auditorium',
 			},
 			{
-				time: '15:00',
+				time: '15:30',
 				emoji: '☕️',
 				title: 'Coffee Break',
 				room: 'Auditorium',
 			},
 			{
-				time: '15:30',
+				time: '16:00',
 				emoji: '💻',
 				title: 'Session 3',
 				room: 'Auditorium',
 			},
 			{
-				time: '18:00',
+				time: '19:30',
 				emoji: '🍕',
-				title: 'Dinner Break',
-				room: '— Find somewhere nearby —',
+				title: 'Dinner'
 			},
 			{
 				time: '20:30',
@@ -83,19 +82,19 @@ new Vue({
 				room: 'Auditorium',
 			},
 			{
-				time: '13:00',
+				time: '13:30',
 				emoji: '💻',
 				title: 'Session 2',
 				room: 'Auditorium',
 			},
 			{
-				time: '15:00',
+				time: '15:30',
 				emoji: '☕️',
 				title: 'Coffee Break',
 				room: 'Auditorium',
 			},
 			{
-				time: '15:30',
+				time: '16:00',
 				emoji: '💻',
 				title: 'Session 3',
 				room: 'Auditorium',
